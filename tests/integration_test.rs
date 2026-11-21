@@ -1,8 +1,8 @@
-// Integration test for SigmaOS-mint-help-tips
+// Integration test for SigmaOS-help-tips
 // Verifies the crate builds and links as a dependency.
 #![allow(unused_imports)]
 
-use mint_help_tips as _;
+use sigmaos_help_tips as _;
 
 #[test]
 fn crate_links_and_runs() {

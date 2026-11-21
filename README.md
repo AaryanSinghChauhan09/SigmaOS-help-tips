@@ -1,4 +1,4 @@
-# SigmaOS-mint-help-tips
+# SigmaOS-help-tips
 
 Help Tips for SigmaOS inspired by Linux Mint
 

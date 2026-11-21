@@ -1,50 +1,50 @@
-# SigmaOS-SigmaOS-mint-help-tips Component Wiki
+# SigmaOS-SigmaOS-help-tips Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-mint-help-tips provides Help Tips for SigmaOS inspired by Linux Mint for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-SigmaOS-help-tips provides Help Tips for SigmaOS inspired by Linux Mint for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
 - Single Responsibility
-- SigmaOS-mint-help-tips Abstraction
-- Fail-Fast on SigmaOS-mint-help-tips Initialization Errors
-- Deterministic SigmaOS-mint-help-tips Setup
-- Clear Abstraction Over SigmaOS-mint-help-tips APIs
-- Composition over Inheritance for SigmaOS-mint-help-tips extensions
+- SigmaOS-help-tips Abstraction
+- Fail-Fast on SigmaOS-help-tips Initialization Errors
+- Deterministic SigmaOS-help-tips Setup
+- Clear Abstraction Over SigmaOS-help-tips APIs
+- Composition over Inheritance for SigmaOS-help-tips extensions
 
 ## Architecture
-SigmaOS-SigmaOS-mint-help-tips follows a SigmaOS-mint-help-tips pattern:
-- **SigmaOS-mint-help-tips Core**: Provides SigmaOS-mint-help-tips support, SigmaOS-mint-help-tips management, and SigmaOS-mint-help-tips tracking
-- **Management**: Supports SigmaOS-mint-help-tips management, SigmaOS-mint-help-tips configuration, and SigmaOS-mint-help-tips lifecycle
-- **Tracking**: Supports SigmaOS-mint-help-tips status, SigmaOS-mint-help-tips tracking, and SigmaOS-mint-help-tips lifecycle
-- **Error Handling**: Fail-fast on invalid SigmaOS-mint-help-tips configurations or unsupported SigmaOS-mint-help-tips types
+SigmaOS-SigmaOS-help-tips follows a SigmaOS-help-tips pattern:
+- **SigmaOS-help-tips Core**: Provides SigmaOS-help-tips support, SigmaOS-help-tips management, and SigmaOS-help-tips tracking
+- **Management**: Supports SigmaOS-help-tips management, SigmaOS-help-tips configuration, and SigmaOS-help-tips lifecycle
+- **Tracking**: Supports SigmaOS-help-tips status, SigmaOS-help-tips tracking, and SigmaOS-help-tips lifecycle
+- **Error Handling**: Fail-fast on invalid SigmaOS-help-tips configurations or unsupported SigmaOS-help-tips types
 
 ## API
 The component provides the following public APIs:
--  - Manage a SigmaOS-mint-help-tips by given configuration
--  - Register a SigmaOS-mint-help-tips by given name
--  - Get SigmaOS-mint-help-tips status and SigmaOS-mint-help-tips availability
--  - Track SigmaOS-mint-help-tips management and SigmaOS-mint-help-tips tracking
-- Error types for SigmaOS-mint-help-tips failure scenarios or unsupported SigmaOS-mint-help-tips types
+-  - Manage a SigmaOS-help-tips by given configuration
+-  - Register a SigmaOS-help-tips by given name
+-  - Get SigmaOS-help-tips status and SigmaOS-help-tips availability
+-  - Track SigmaOS-help-tips management and SigmaOS-help-tips tracking
+- Error types for SigmaOS-help-tips failure scenarios or unsupported SigmaOS-help-tips types
 
 ## Test Structure (Arrange-Act-ASSERT)
 All tests follow the AAA pattern:
-1. **Arrange**: Set up test environment with specific SigmaOS-mint-help-tips configuration
-2. **Act**: Execute the code under test (SigmaOS-mint-help-tips init, SigmaOS-mint-help-tips management)
-3. **Assert**: Verify the expected SigmaOS-mint-help-tips results
+1. **Arrange**: Set up test environment with specific SigmaOS-help-tips configuration
+2. **Act**: Execute the code under test (SigmaOS-help-tips init, SigmaOS-help-tips management)
+3. **Assert**: Verify the expected SigmaOS-help-tips results
 
 Example:
 
 
 ## Development
 - Follows Rust best practices with 
-- SigmaOS-mint-help-tips initialization is best-effort; gracefully degrades on unsupported configurations
-- Comprehensive error types for all SigmaOS-mint-help-tips failure scenarios
-- Unit tests provided for SigmaOS-mint-help-tips management and configuration
-- Integration tests for full SigmaOS-mint-help-tips system with actual SigmaOS-mint-help-tips integration
+- SigmaOS-help-tips initialization is best-effort; gracefully degrades on unsupported configurations
+- Comprehensive error types for all SigmaOS-help-tips failure scenarios
+- Unit tests provided for SigmaOS-help-tips management and configuration
+- Integration tests for full SigmaOS-help-tips system with actual SigmaOS-help-tips integration
 
 ## TODO
-- Add support for additional SigmaOS-mint-help-tips types
-- Expand SigmaOS-mint-help-tips capabilities (SigmaOS-mint-help-tips features, SigmaOS-mint-help-tips configurations, SigmaOS-mint-help-tips tracking)
-- Add lifecycle features (SigmaOS-mint-help-tips tracking, SigmaOS-mint-help-tips lifecycle, SigmaOS-mint-help-tips propagation)
-- Create integration tests with actual SigmaOS-mint-help-tips systems and SigmaOS-mint-help-tips integration
-- Implement SigmaOS-mint-help-tips persistence and SigmaOS-mint-help-tips state management
+- Add support for additional SigmaOS-help-tips types
+- Expand SigmaOS-help-tips capabilities (SigmaOS-help-tips features, SigmaOS-help-tips configurations, SigmaOS-help-tips tracking)
+- Add lifecycle features (SigmaOS-help-tips tracking, SigmaOS-help-tips lifecycle, SigmaOS-help-tips propagation)
+- Create integration tests with actual SigmaOS-help-tips systems and SigmaOS-help-tips integration
+- Implement SigmaOS-help-tips persistence and SigmaOS-help-tips state management

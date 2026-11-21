@@ -1,10 +1,10 @@
 [package]
-name = "SigmaOS-mint-help-tips"
+name = "SigmaOS-help-tips"
 version = "0.1.0"
 edition = "2021"
 license = "Apache-2.0"
 description = "SigmaOS mint-help-tips component"
 
 [lib]
-name = "mint_help_tips"
+name = "sigmaos_help_tips"
 path = "src/lib.rs"

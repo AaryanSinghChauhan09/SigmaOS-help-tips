@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-//! SigmaOS-mint-help-tips: mint help tips component model.
+//! SigmaOS-help-tips: mint help tips component model.
 //!
 //! Real implementation: tipss, events, validation, deterministic storage.
 //! Replaces the placeholder stub.

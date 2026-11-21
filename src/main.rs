@@ -1,9 +1,9 @@
-//! SigmaOS-mint-help-tips — thin CLI entry point.
+//! SigmaOS-help-tips — thin CLI entry point.
 //!
 //! The component library lives in `src/lib.rs`; this binary is a minimal
 //! entry that reports the component is present. Real behaviour is in the
 //! library crate and exercised by its unit/integration tests.
 
 fn main() {
-    println!("SigmaOS-mint-help-tips: ok");
+    println!("SigmaOS-help-tips: ok");
 }
